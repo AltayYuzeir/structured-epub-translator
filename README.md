@@ -1,6 +1,6 @@
 #  Local Structure-Preserving EPUB Language Localization with Ollama
 
-Local Gradio EPUB translator, tested on macOS / Apple Silicon
+Local Gradio EPUB translator, tested on macOS / Apple Silicon M5 MacBook Pro 24GB Ram
 
 Features:
 - preserves EPUB package structure
@@ -39,11 +39,14 @@ python app.py
 
 Open the Gradio URL printed in the terminal.
 
-The Ollama-compatible backend is provided so the EPUB application can also
+The Ollama-compatible backend is provided so the EPUB application can
 connect to a local inference server exposing the model at:
 
 http://127.0.0.1:11434/v1
 
 The default application starts in dry-run mode. Test a small sample first.
+
+## Warning
+It can take tens few hours to translate a moderately sized book.
 
 <img src="spell.png" alt="Gradio GUI" width="100%">
