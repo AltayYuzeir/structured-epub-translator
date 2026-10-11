@@ -45,3 +45,5 @@ connect to a local inference server exposing the model at:
 http://127.0.0.1:11434/v1
 
 The default application starts in dry-run mode. Test a small sample first.
+
+<img src="spell.png" alt="Gradio GUI" width="100%">
