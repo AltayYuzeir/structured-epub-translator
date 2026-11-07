@@ -47,6 +47,6 @@ http://127.0.0.1:11434/v1
 The default application starts in dry-run mode. Test a small sample first.
 
 ## Warning
-It can take tens few hours to translate a moderately sized book.
+It can take few hours to translate a moderately sized book.
 
 <img src="spell.png" alt="Gradio GUI" width="100%">
